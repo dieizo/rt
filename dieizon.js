@@ -18,3 +18,8 @@ let array = {"frutas","melancia","mamão","pera", "abacate", "goiaba", "abacaxi"
 let array =["frutas","melancia","mamão" "goiaba",]
 //execicio 08
 
+let array ={"melancia", "mamão ","pera","abacate","goiaba","abacaxi","bergamota",}
+//exercicio 09
+let array ={"splicepush", "frutas","melancia","mamão", "pera","abacate","goiaba","abacaxi",  "bercgamota",}
+//exercicio 10
+let array ={}
