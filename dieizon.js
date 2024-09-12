@@ -22,4 +22,4 @@ let array ={"melancia", "mamão ","pera","abacate","goiaba","abacaxi","bergamota
 //exercicio 09
 let array ={"splicepush", "frutas","melancia","mamão", "pera","abacate","goiaba","abacaxi",  "bercgamota",}
 //exercicio 10
-let array ={}
+let array ={"veicolo estava a velociodade de 80km/h  ele levou uma multa de R$5 por cada km de velocidade premitido".}
