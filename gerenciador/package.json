@@ -1,17 +1,16 @@
 {
-  "name": "aula07",
+  "name": "todos-list",
   "version": "1.0.0",
-  "description": "Gerenciador de tarefas",
+  "description": "gerenciador de tarefas",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "deizino cazuni franco",
+  "author": "davi de oliveira",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^11.0.2"
   }
 }
-
-
