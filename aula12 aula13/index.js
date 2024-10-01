@@ -323,4 +323,5 @@ aluno.adicionar_nota(8.0)
 aluno.adicionar_nota(5.0)
 
 print(f'Média: {aluno.calcular_media():.2f}')  # Média: 6.17
-print(f'Situação: {aluno.verificar_situacao()}')  # Situação: Aprovado
+print(f'Situação: {aluno.verificar_situacao()}')  # Situação: Aprovado 
+git ad
