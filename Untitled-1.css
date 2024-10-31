@@ -97,11 +97,20 @@ button:hover {
 
 #alertboxbody .alertbox-message {
   padding-bottom: 1rem;
-}
+  width: Hug (1,920px)px;
+  height: Hug (1,974px)px;
+  gap: 0px;
+  opacity: 0px;
+ ]];
+
+]];
+
 width: Fixed (375px)px;
 height: Hug (300px)px;
 gap: 10px;
 
+]];
+]];
 
 width: Fixed (375px)px;
 height: Hug (1,732px)px;
@@ -114,6 +123,8 @@ bottom 48px
 left   24px
 gap    50px
 
+]];
+]];
 
 
 
@@ -124,6 +135,8 @@ top  64px
 right 24px 
 bottom 64px
 left   24px
+]];
+]];
 branco#fefbf4
 text: la pizza  pedaço de itália, 
 text: mais vendidas,
