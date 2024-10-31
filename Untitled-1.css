@@ -2,138 +2,143 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Orbitron", sans-serif;
 }
 
 body {
-  background-color: #0f0d13;
-  font-family: "Roboto", sans-serif;
-}
-
-#app {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-areas: "A B" "A C";
-  gap: 2rem;
-  place-content: center;
   height: 100vh;
-}
-
-#player-1 {
-  grid-area: A;
-  padding: 3.125rem 2.375rem;
-}
-
-#player-1 .wrapper {
-  width: 11.875rem;
-}
-
-#player-1 img {
-  width: 11.875rem;
-  height: 11.875rem;
-  object-fit: cover;
-  border-radius: 0.375rem;
-}
-
-#player-1 .info {
-  margin-top: 1.75rem;
-}
-
-#player-2 {
-  grid-area: B;
-  height: fit-content;
-}
-
-#player-3 {
-  grid-area: C;
-  height: fit-content;
-}
-
-.player {
-  background-color: #2a2141;
-  padding: 1.75rem;
-  border-radius: 0.625rem;
-}
-
-.player img {
-  width: 5.25rem;
-  height: 5.25rem;
-  object-fit: cover;
-  border-radius: 0.375rem;
-}
-
-.info-wrapper {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  background-color: #e7626c;
 }
 
-.info {
-  color: #e1e1e6;
+.container {
+  margin: 0 auto;
+
+  text-align: center;
+  padding: 20px;
 }
 
-.info h1 {
-  font-size: 1.5rem;
-  margin-bottom: 0.6rem;
+.title {
+  font-size: 50px;
+  font-weight: 400;
+  color: #f4eddb;
+  text-transform: lowercase;
 }
 
-.info p {
-  opacity: 0.67;
-  font-size: 1.1875rem;
+.title span {
+  margin-left: -10px;
 }
 
-.controls {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.75rem;
+.timer {
+  font-size: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #f4eddb;
 }
 
-.track {
-  margin-top: 1.75rem;
-  position: relative;
+.title,
+.timer {
+  margin-bottom: 32px;
 }
 
-.track::before,
-.track::after {
-  content: "";
-  display: block;
-  height: 0.375rem;
-  border-radius: 0.625rem;
-  background-color: #d9d9d9;
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  transition: opacity 0.3s ease-in-out;
 }
 
-.track::before {
-  width: 100%;
-  opacity: 0.3;
-  position: absolute;
+button:hover {
+  opacity: 0.8;
 }
 
-.track::after {
-  width: 80%;
+#start {
+  background-color: #27ae60;
 }
 
-.time {
-  font-size: 0.875rem;
-  color: #c4c4c4;
-  opacity: 0.7;
-
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0.6rem;
+#stop {
+  background-color: #c0392b;
 }
 
-@media (max-width: 670px) {
-  #app {
-    display: flex;
-    flex-direction: column;
-    max-width: 16.875rem;
-    height: auto;
-    margin: auto;
-
-    padding-block: 3.75rem;
-  }
-
-  .horizontal .controls {
-    padding-inline: 1.875rem;
-  }
+#reset {
+  background-color: #7f8c8d;
 }
+
+/* alert */
+#alertboxmain {
+  background-color: whitesmoke;
+}
+
+#alertboxheader .alertbox-title,
+#alertboxbody .alertbox-message,
+#alertBoxBtn {
+  font-family: "Montserrat", sans-serif;
+}
+
+#alertboxbody .alertbox-message {
+  padding-bottom: 1rem;
+}
+width: Fixed (375px)px;
+height: Hug (300px)px;
+gap: 10px;
+
+
+width: Fixed (375px)px;
+height: Hug (1,732px)px;
+top: 300px;
+padding: 48px 24px 48px 24px;
+gap: 50px; 
+Top   48px
+right 24px 
+bottom 48px
+left   24px
+gap    50px
+
+
+
+
+width: Fixed (375px)px;
+height: Hug (984px)px;
+top: 2032px 
+top  64px
+right 24px 
+bottom 64px
+left   24px
+branco#fefbf4
+text: la pizza  pedaço de itália, 
+text: mais vendidas,
+sabor da pizza é la cuma, 
+valor: é  R$ 29,90 
+sabor  da pizza  é la menta,
+valor: é  R$  25,50
+sabor da pizza é la cuma, 
+valor:   é R$  26,00
+sabor da pizza é la  toca,
+valor:  é   R$  23,80 
+
+tem  um lago azul,
+tem  tres vaso de flor,
+tem tres  mesa,
+tem tres cadeira.
+tem tres toalha de mesa,
+tem vaso flor na porta,
+o cham   de fora é marom,
+dentro é  marom,
+duas luminaria,
+um Árvore,
+em cima do telhado marom tem uma planta, 
+tem uma porta marom,    
+e tem um  text escritosobre a la pizza na cidade,
+
+}};
+}};
+
+
+
