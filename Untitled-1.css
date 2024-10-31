@@ -9,16 +9,17 @@ Tipografia e paleta de cores declaradas em variáveis, com nome condizente;
 Commits descritivos;
 Aplicação hospedada na vercel ou github pages (indiferente);
 Deverá ser desenvolvida em aula e de forma individual.
+
 ]],
 ]],
-]],
-]],
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Orbitron", sans-serif;
 
-
+  ]],
+  ]],
 
 
   margin: 0;
