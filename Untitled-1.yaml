@@ -1,0 +1,50 @@
+ margin: 0;  margem
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  Bem-vindo ao projeto La Pizza.
+  imagem:1920 hug* 600 hug 
+  text : 278 hug*48 hug mais vendidas.
+  tanho vai a imagam das pizza 1237 hug *360 hug. 
+  imagem:  1237 hug*746 hug. 
+  valor do preso  produto que pizza cada sabor. 
+  la pizza carne R$29,90  tamanho 215hug*360 hug.
+  la pizza magarita R$25,50 tamanho  280*360.
+  la pizza carne    26,00   tamanho 280*360.
+  la  pizza tasa    23,80   tamanho 280*360.
+imagem: mesa,cadeira, planta,luminaria,parade,porta,lago.
+text:   285 hug*44 hug  sabre a la  pizza.
+text :  195 hug*41 hug  sabre a la  pizza.
+text:   704fill*108 hug sabre a la  pizza.
+text:  704fill*257  hug sabre a la  pizza.
+tamanho: 768*400
+tamanho: 768*1006 hug.
+tamanho: 768*849  hug.
+tamanho : plafeto é de 1920*1974  de qualado  do plafreto  da la pizza pedaço da italia.
+estas fuguras  dos tomate estam cortado   a paresendo dento do tomate na lateral direito tem e no esquerdo tem em baixo tambem te o  dezenho do tomate.
+no plafrto da la pizza pedaço da italia. venha a pro veitar comer saborozo de pizza tem varios sabor  do gosto de cada um.
+pesa o seu pedido nos emtregaremos na sua casa tem telentrega no saite e botar  la pizza pedaço da italia. 
+noso endereço noso telefone so entar  cotato com nosco e ligar para nois.
+fasa seu pedido da sua pizza.
+}};
+}};  
+ #start {
+  background-color: #27ae60;  verde: z  
+}
+#stop {
+  background-color: #c0392b;  vemelho: z
+}#reset {
+  background-color: #7f8c8d;   sinja: i
+}/* alert */
+#alertboxmain {
+  background-color: whitesmoke; branco: letra p ,a. 
+}
+ background-color: #27ae60;  text: verde. 
+ background-color: #27ae60;  text: verde. 
+ background-color: #c0392b; tomate: vemelho. 
+ background-color:  o lago:  blue  
+ background-color:  #27e60: planta verde.
+ background-color:  #7f8c8d; caderas são sinja  do retarante.
+
+}
+
