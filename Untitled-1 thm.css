@@ -1,0 +1,247 @@
+/aluno: dieizon cazuni franco/
+
+Mobile first;
+Responsividade;
+HTML semântico;
+Pixel perfect;
+Código devidamente identado;
+Tipografia e paleta de cores declaradas em variáveis, com nome condizente;
+Commits descritivos;
+Aplicação hospedada na vercel ou github pages (indiferente);
+Deverá ser desenvolvida em aula e de forma individual.
+
+]],
+]],
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+
+  ]],
+  ]],
+
+
+  margin: 0; pizza 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+
+* {
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #e7626c;
+}
+
+.container {
+  margin: 0 auto;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 400;
+  color: #f4eddb;
+  text-transform: lowercase;
+}
+
+.title span {
+  margin-left: -10px;
+}
+
+.timer {
+  font-size: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #f4eddb;
+}
+
+.title,
+.timer {
+  margin-bottom: 32px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#start {
+  background-color: #27ae60;
+}
+
+#stop {
+  background-color: #c0392b;
+}
+
+#reset {
+  background-color: #7f8c8d;
+}
+
+/* alert */
+#alertboxmain {
+  background-color: whitesmoke;
+}
+
+#alertboxheader .alertbox-title,
+#alertboxbody .alertbox-message,
+#alertBoxBtn {
+  font-family: "Montserrat", sans-serif;
+}
+
+#alertboxbody .alertbox-message {
+  padding-bottom: 1rem;
+  width: Hug (1,920px)px;
+  height: Hug (1,974px)px;
+  gap: 0px;
+  opacity: 0px;
+
+  width: 167px;
+height: 29px;
+}};
+}];
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.05px;
+text-align: right;
+
+
+ ]];
+
+]];
+
+background: #000000; preto 
+background: #FF3536; vermelho
+background: #FFBD48; amarlelo 
+background: #FEFBF4; branco
+background: #FFD4C9; rosa
+background: #FFF5DE;  branco
+]];
+]],
+
+background: #60BB28;  cinza
+background: #000000CC; verde
+background: #2E2E2E;  preto
+background: #FFFFFF;  branco 
+width: Fixed (375px)px;
+height: Hug (300px)px;
+gap: 10px;
+
+]];
+]];
+
+width: Fixed (375px)px;
+height: Hug (1,732px)px;
+top: 300px;
+padding: 48px 24px 48px 24px;
+gap: 50px; 
+Top   48px
+right 24px 
+bottom 48px
+left   24px
+gap    50px
+
+]];
+]];
+
+
+
+width: Fixed (375px)px;
+height: Hug (984px)px;
+top: 2032px 
+top  64px
+right 24px 
+bottom 64px
+left   24px
+]];
+]];
+branco#fefbf4
+text: la pizza  pedaço de itália, 
+text: mais vendidas,
+sabor da pizza é la cuma, 
+valor: é  R$ 29,90 
+sabor  da pizza  é la menta,
+valor: é  R$  25,50
+sabor da pizza é la cuma, 
+valor:   é R$  26,00
+sabor da pizza é la  toca,
+valor:  é   R$  23,80 
+
+tem  um lago azul,
+tem  tres vaso de flor,
+tem tres  mesa,
+tem tres cadeira.
+tem tres toalha de mesa,
+tem vaso flor na porta,
+o cham   de fora é marom,
+dentro é  marom,
+duas luminaria,
+um Árvore,
+em cima do telhado marom tem uma planta, 
+tem uma porta marom,    
+e tem um  text escritosobre a la pizza na cidade,
+width: 300px;
+height: 198.61px;
+gap: 0px;
+opacity: 0px;
+
+width: Fixed (768px)px;
+height: Fixed (400px)px;
+gap: 10px;
+opacity: 0px;
+
+width: Fixed (768px)px;
+height: Hug (1,006px)px;
+top: 400px;
+padding: 64px 24px 64px 24px;
+gap: 50px;
+opacity: 0px;
+
+width: Fixed (768px)px;
+height: Hug (849px)px;
+top: 1406px;
+padding: 64px 32px 64px 32px;
+gap: 0px;
+opacity: 0px;
+branco#fefbf4,
+
+width: 285px;
+height: 44px;
+gap: 0px;
+opacity: 0px;
+Sobre a La Pizza
+Bem-vindo ao "La Pizza", o seu refúgio acolhedor para uma experiência de pizzaria autêntica. Em nosso pequeno oásis italiano, cada pedaço de pizza é uma obra-prima artesanal. Sinta-se em casa enquanto o aroma sedutor de massa fresca assa no forno, criando as pizzas mais deliciosas da cidade.
+Ler mais sobre
+  de   sabor  la  cuma  pedaço 20 pizza valor R$ 49,90    
+  de   sabor   la menta pedaço  30  volor  R$ 55,50    
+  de   sabor   la cuma  pedaço 40  volor   R$  66,00
+  de   sabor   la toca  pedaço 50  valor   R$  73,80     
+   
+alem  da pizza tem entrega que é R$10,00 para motoboi da  la pizza,
+  
+]];
+]];
+
+
+
+
+
