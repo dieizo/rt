@@ -1,21 +1,14 @@
-/aluno: dieizon cazuni franco/
+aluno:dieizon cazuni franco
+desenvolvimento front end 
 
-Mobile first;
-Responsividade;
-HTML semântico;
-Pixel perfect;
-Código devidamente identado;
-Tipografia e paleta de cores declaradas em variáveis, com nome condizente;
-Commits descritivos;
-Aplicação hospedada na vercel ou github pages (indiferente);
-Deverá ser desenvolvida em aula e de forma individual.
+]];
+]];
 
-]],
-]],
 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   font-family: "Orbitron", sans-serif;
 
   ]],
@@ -129,6 +122,19 @@ text-align: right;
 
 ]];
 
+background: #000000; preto 
+background: #FF3536; vermelho
+background: #FFBD48; amarlelo 
+background: #FEFBF4; branco
+background: #FFD4C9; rosa
+background: #FFF5DE;  branco
+]];
+]],
+
+background: #60BB28;  cinza
+background: #000000CC; verde
+background: #2E2E2E;  preto
+background: #FFFFFF;  branco 
 width: Fixed (375px)px;
 height: Hug (300px)px;
 gap: 10px;
@@ -186,6 +192,8 @@ um Árvore,
 em cima do telhado marom tem uma planta, 
 tem uma porta marom,    
 e tem um  text escritosobre a la pizza na cidade,
+tem vaso de flor  na frente  da porta e aporta é  marom
+
 width: 300px;
 height: 198.61px;
 gap: 0px;
@@ -221,7 +229,23 @@ Ler mais sobre
   de   sabor  la  cuma  pedaço 20 pizza valor R$ 49,90    
   de   sabor   la menta pedaço  30  volor  R$ 55,50    
   de   sabor   la cuma  pedaço 40  volor   R$  66,00
-  de   sabor   la toca  pedaço 50  valor   R$  73,80     
+  de   sabor   la toca  pedaço 50  valor   R$  73,80 
+  
+  ]];
+  ]];
 
-}};
-}};
+
+   
+alem  da pizza tem entrega que é R$10,00 para motoboi da  la pizza,
+ pedi a sua pizza qunhe um refrigerante de 2litros que é guarana  gratuito, 
+é promoção da la pizza  pedaço da itália,
+total de que vaidar pizza e a itrega  R$ 255,20 
+
+]];
+]];
+
+
+
+
+
+
