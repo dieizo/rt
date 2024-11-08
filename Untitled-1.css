@@ -122,12 +122,13 @@
   }
 
   tem que  fazer os botam da caculadora são 1,2,3,4,5,6,7,8,9,0 cor vaiser branco
-  + mais. cor veiser prata 
-  - menos . cor vaiser vermelho
-  x vezes .  cor vaiser azul
-  %  dividir. cor vaiser verde
-  = igal.      cor vaiser amarelo
+  + mais. cor veiser black #000000  
+  - menos . cor vaiser red #ff3536
+  x vezes .  cor vaiser black #000000
+  %  dividir. cor vaiser red #ff3536
+  = igal.      cor vaiser  yellow #ffbd48
    CE  M+
    C M-
    X Mv 
 
+  
