@@ -125,3 +125,80 @@ a caculadora tem ::-webkit-validation-bubble-text-block para linearGradient ::-m
 feGaussianBlur ::grammar-error  :blank :-ms-keyboard-active 
 area são + nais  - menos  * vezes    %   dividir    ::after :-moz-any(noscript)
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #4e384c;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #874caf;
+    color: rgb(156, 43, 43);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  <html>
+  <head>
+    <title>Meu Site</title>
+  </head>
+  <body>
+    <h1>Bem-vindo ao meu site!</h1>
+    <p>Este é um exemplo simples de HTML.</p>
+    <button onclick="changeText()">Clique aqui!</button>
+  </body>
+</html>
+p {
+    margin-top: 32px;
+  }
+  elemento {
+    margin-top: valor;
+  }
+
+  elemento {
+    margin-top: 20px;
+  }
+  elemento {
+    margin-top: 10%;
+  }
+  selector {
+    propiedad: valor;
+  }
+  /* Cambiar el color del texto y el tamaño de la fuente de todos los párrafos */
+p {
+    color: blue;
+    font-size: 16px;
+  }
+  
+  /* Cambiar el fondo y el tamaño de un div con la clase .mi-clase */
+  .mi-clase {
+    background-color: lightgray;
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* Cambiar el margen superior de un elemento con id #mi-id */
+  #mi-id {
+    margin-top: 20px;
+  }
+  div {
+    display: block; /* El elemento se muestra como un bloque */
+  }
+  #mi-id {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+    
