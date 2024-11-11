@@ -1,139 +1,66 @@
-desenvolvimento fronte end 
-aluno dieizon cazuni franco
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
-  
-    display: grid;
-    place-content: center;
-  }
-  
-  body * {
-    font-family: "Rubik";
-    letter-spacing: -0.02rem;
-  }
-  
-  body.light-theme {
-    background: linear-gradient(180deg, #f2f2f2 0%, #d9d9d9 100%);
-    color: #333333;
-  }
-  
-  body.light-theme #calculator {
-    background: whitesmoke;
-  }
-  
-  #calculator {
-    background: #2d2a37;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-      0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04),
-      0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26),
-      0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1),
-      inset 0px -4px 5px rgba(0, 0, 0, 0.22);
-    border-radius: 48px;
-  }
-  
-  #display {
-    margin-top: 54px;
-    padding-inline: 54px;
-  }
-  
-  #last-calc {
-    text-align: right;
-    font-size: 20px;
-    line-height: 140%;
-    color: #6b6b6b;
-  }
-  
-  #result {
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #result span {
-    font-size: 36px;
-    line-height: 140%;
-    color: #ebebeb;
-  }
-  
-  #keyboard {
-    padding: 26px 32px 32px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-  }
-  
-  .btn-calc {
-    border: 0;
-    width: 64px;
-    height: 64px;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.05) 0%,
-        rgba(255, 255, 255, 0.05) 100%
-      ),
-      #2d2a37;
-    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
-      0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
-      0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
-    border-radius: 999px;
-    font-size: 24px;
-    line-height: 28px;
-    color: #ebebeb;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .secondary {
-    color: #975dfa;
-  }
-  
-  .tertiary {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.05) 0.01%,
-        rgba(255, 255, 255, 0.05) 100%
-      ),
-      #462878;
-    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
-      0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
-      0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
-  }
-  
-  .quartiary {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.15) 0%,
-        rgba(255, 255, 255, 0.05) 100%
-      ),
-      #7f45e2;
-    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
-      0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
-      0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
-  }
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
 
-  tem que  fazer os botam da caculadora são 1,2,3,4,5,6,7,8,9,0 cor vaiser white #ebebeb; 
-  + mais. cor veiser black #000000.  
-  - menos . cor vaiser red #ff3536.
-  x vezes .  cor vaiser black #000000.
-  %  dividir. cor vaiser red #ff3536.
-  = igal. cor vaiser  yellow #ffbd48.
-  calculado os botam de são os numero: 1,2,3,4,5,6,7,8,9,0
-  tem os botam de +mais -menos *vexes % dividir.
-  tem que usar eles para calcular é somar dividir multiplicar os numero da calculadora.
-  
-  
- 
-  
-  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="display">
+        <div id="last-calc">1 + 1</div>
+        <div id="result">
+          <img src="./assets/equals.svg" alt="sinal de igual" />
+          <span>2</span>
+        </div>
+      </div>
+      <div id="keyboard">
+        <button class="btn-calc secondary">CE</button>
+        <button class="btn-calc">C</button>
+        <button class="btn-calc">
+          <img src="./assets/percent.svg" alt="Percent" />
+        </button>
+        <button class="btn-calc tertiary">
+          <img src="./assets/divide.svg" alt="Divide" />
+        </button>
+        <button class="btn-calc">7</button>
+        <button class="btn-calc">8</button>
+        <button class="btn-calc">9</button>
+        <button class="btn-calc tertiary">
+          <img src="./assets/x.svg" alt="Multiplication" />
+        </button>
+        <button class="btn-calc">4</button>
+        <button class="btn-calc">5</button>
+        <button class="btn-calc">6</button>
+        <button class="btn-calc tertiary">
+          <img src="./assets/minus.svg" alt="Minus" />
+        </button>
+        <button class="btn-calc">1</button>
+        <button class="btn-calc">2</button>
+        <button class="btn-calc">3</button>
+        <button class="btn-calc tertiary">
+          <img src="./assets/plus.svg" alt="Plus" />
+        </button>
+        <button class="btn-calc" id="theme-toggle">
+          <img src="./assets/sun.svg" alt="ícone de sol" id="icon-theme" />
+        </button>
+        <button class="btn-calc">0</button>
+        <button class="btn-calc">,</button>
+        <button class="btn-calc quartiary">
+          <img src="./assets/result.svg" alt="Equals" />
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
